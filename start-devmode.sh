@@ -178,5 +178,3 @@ ${DEVMODE_JAIL} ${OPT_SSH}/sbin/sshd \
 -h ${HOST_KEY_DIR}/ssh_host_rsa_key \
   -o PasswordAuthentication=no -o PermitRootLogin=no -o PermitUserEnvironment=yes \
  -D -p ${SSH_PORT}
-
-killall /usr/sbin/update
